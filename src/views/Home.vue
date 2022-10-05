@@ -1,17 +1,20 @@
 <template>
   <div class="home">
     <AvatarShow />
+    <EchartsShow />
   </div>
 </template>
 
 <script>
 import AvatarShow from "@/views/show/AvatarShow.vue";
+import EchartsShow from "@/views/show/EchartsShow.vue";
 import MyCropper from "@/components/MyCropper";
 
 export default {
   components: {
     MyCropper,
     AvatarShow,
+    EchartsShow,
   },
   name: "Home",
   data() {
